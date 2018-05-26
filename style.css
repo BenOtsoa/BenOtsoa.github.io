@@ -1,0 +1,151 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 2rem 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.9;
+  color: #777;
+  background-color: rgba(219, 219, 219, 0.1);
+}
+
+a,
+a:hover {
+  color: #777;
+}
+
+.header {
+  width: 90vw;
+  padding: 0;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.header-box_left--contactbox {
+  padding: 0.5rem 0;
+}
+
+.id-box {
+  margin: 0.5rem 0;
+}
+
+.id-box_name {
+  font-weight: bold;
+}
+
+.id-box_social,
+.id-box_social > a {
+  color: rgb(223, 0, 0);
+}
+
+.header-box_img {
+  width: 100%;
+  height: auto;
+  padding: 1rem 0;
+  border-radius: 100%;
+}
+
+.cursus {
+  text-align: center;
+  padding: 2rem 0;
+  font-weight: bold;
+}
+
+.cursus-list {
+  text-align: left;
+}
+
+.list-text {
+  font-weight: lighter;
+}
+
+.list-text > a {
+  color: rgb(223, 0, 0);
+}
+
+.other {
+  margin-top: 2.5rem;
+}
+
+.skills-description {
+  font-weight: lighter;
+  text-align: left;
+}
+
+.various-text {
+  font-weight: lighter;
+}
+
+.technical-skills {
+  padding: 7rem 0;
+}
+
+#technical-skills_title {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.progress-style {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.progress-custom {
+  background-color: transparent !important;
+  background: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.5) 50%,
+    rgba(255, 170, 0, 0.5) 100%
+  );
+  content: " ";
+}
+
+@media (max-width: 992px) {
+  .header-box {
+    background-color: rgb(250, 250, 250);
+    border: none;
+  }
+  .sm-layout_card {
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  .photobox-sm {
+    background-image: linear-gradient(
+        65deg,
+        transparent 50%,
+        rgba(255, 0, 0, 0.5) 50%,
+        rgba(255, 170, 0, 0.5) 100%
+      ),
+      url(./images/what-the-hex.png);
+  }
+
+  .card-row {
+    margin-bottom: 2rem;
+  }
+
+  .technical-skills {
+    padding: 1rem 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-box {
+    background-image: linear-gradient(
+        65deg,
+        transparent 50%,
+        rgba(255, 0, 0, 0.5) 50%,
+        rgba(255, 170, 0, 0.5) 100%
+      ),
+      url(./images/what-the-hex.png);
+  }
+  .photobox-sm {
+    border: none;
+  }
+}
