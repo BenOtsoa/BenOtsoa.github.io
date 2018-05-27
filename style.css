@@ -1,6 +1,7 @@
 *,
 *::after,
 *::before {
+  -webkit-box-sizing: inherit;
   box-sizing: inherit;
 }
 
@@ -98,6 +99,13 @@ a:hover {
 
 .progress-custom {
   background-color: transparent !important;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(50%, rgba(255, 0, 0, 0.5)),
+    to(rgba(255, 170, 0, 0.5))
+  );
   background: linear-gradient(
     to right,
     rgba(255, 0, 0, 0.5) 50%,
