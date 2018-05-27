@@ -20,6 +20,7 @@ a:hover {
   color: #777;
 }
 
+/* ------------ HEADER ----------- */
 .header {
   width: 90vw;
   padding: 0;
@@ -51,6 +52,8 @@ a:hover {
   border-radius: 100%;
 }
 
+/* ------------ CURSUS ----------- */
+
 .cursus {
   text-align: center;
   padding: 2rem 0;
@@ -67,10 +70,6 @@ a:hover {
 
 .list-text > a {
   color: rgb(223, 0, 0);
-}
-
-.other {
-  margin-top: 2.5rem;
 }
 
 .skills-description {
